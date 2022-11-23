@@ -1,0 +1,375 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.head_bar {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+}
+
+.left_side {
+    width: 30rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 0.1rem 0rem 0.1rem 0rem;
+    opacity: 0.8;
+}
+
+.logo:hover {
+    opacity: 0.5;
+}
+
+.button_signup {
+    cursor: pointer;
+    background-color: rgb(74, 74, 235);
+    border: none;
+    width: 4.5rem;
+    height: 2rem;
+    border-radius: 5px;
+    color: white;
+}
+
+.button_signup:hover {
+    opacity: 0.8;
+}
+
+.div a {
+    color: white;
+    font-weight: 600;
+}
+
+a:hover {
+    opacity: 0.7;
+}
+
+.searchbar {
+    display: flex;
+}
+
+.right_side {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchbar button {
+    border: none;
+    width: 1.5rem;
+    cursor: pointer;
+    border-radius: 5px 0px 0px 5px;
+    background-color: rgb(219, 216, 216);
+}
+
+.searchbar input {
+    background-color: rgb(219, 216, 216);
+    border: none;
+    padding-left: 1rem;
+    width: 13rem;
+    outline: none;
+    height: 2.1rem;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.searchbar:hover {
+    opacity: 0.8;
+}
+
+.upload img {
+    margin-left: 1.2rem;
+    height: 1.8rem;
+    width: 1.8rem;
+    border-radius: 5px;
+}
+
+.sign_in_already {
+    margin-left: 3rem;
+    text-align: center;
+    margin-top: 0.5rem;
+}
+
+.main_body {
+    background-image: url(Images/bf_for_jobs.jpg);
+    overflow: hidden;
+    background-position: center;
+    width: 100%;
+    height: 92vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content h1 {
+    color: white;
+    font-size: 4rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 1.2rem;
+}
+
+.content h3 {
+    color: white;
+    font-size: 1.2rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 1.2rem;
+}
+
+.content button {
+    background-color: rgb(99, 99, 231);
+    border: none;
+    outline: none;
+    width: 12rem;
+    height: 3rem;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.content button:hover {
+    opacity: 0.5;
+}
+
+.panda {
+    width: 100%;
+    margin-top: 3rem;
+    margin-bottom: 7rem;
+}
+
+.inside_con1 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.content_of_panda {
+    width: 20rem;
+    padding-top: 2rem;
+}
+
+.image_of_panda {
+    width: 30rem;
+
+}
+
+.content_of_panda h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.content_of_panda p {
+    font-size: 1rem;
+    padding-top: 2rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5rem;
+}
+
+.ruppel {
+    width: 100%;
+}
+
+.inside_con2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 10rem;
+}
+
+.content_of_ruppel {
+    width: 20rem;
+    padding-top: 2rem;
+}
+
+.img_of_ruppel {
+    width: 30rem;
+
+}
+
+.content_of_ruppel h2 {
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+
+.content_of_ruppel p {
+    font-size: 1rem;
+    padding-top: 2rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+.content_of_ruppel a{
+    text-decoration: underline;
+     font-size: 1.4rem;
+}
+
+.hr {
+    margin-top: 5rem;
+    margin-bottom: 7rem;
+}
+hr{
+    width: 100%;
+    border: 1px solid rgb(158, 157, 157);
+}
+
+.war_room{
+    width: 100%;
+    margin-top: 7rem;
+    margin-bottom: 10rem;
+}
+
+.inside_con3{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: row;
+}
+.content_of_war_room{
+    width: 20rem;
+    padding-top: 2rem;
+}
+.img_of_war_room{
+    width: 30rem;
+}
+
+
+.content_of_war_room h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.content_of_war_room p {
+    font-size: 1rem;
+    padding-top: 2rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5rem;
+    margin-bottom: 2rem;
+}
+.big{
+    width: 100%;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+}
+
+.inside_con4{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+.img_of_big{
+    width: 30rem;
+}
+.content_of_big{
+    width: 20rem;
+    padding-top: 2rem;
+}
+.content_of_big h2{
+    font-size: 1.8rem;
+    font-weight: 500;
+    font-family: 'Arial Narrow Bold', sans-serif;
+}
+.content_of_big p{
+    font-size: 1rem;
+    padding-top: 2rem;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5rem;
+    margin-bottom: 2rem; 
+}
+.content_container h1{
+    text-align: center;
+}
+.Enginnering h3{
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Enginnering div{
+    font-size: 1.1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 8rem;
+    margin-right: 8rem;
+    background-color: rgb(206, 206, 206);
+    border: 2px solid rgb(206, 206, 206);
+    height: 5rem;
+}
+.Enginnering h5{
+    font-size: 1.1rem;
+    font-weight: 700;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.Enginnering  p{
+    color: rgb(177, 175, 175);
+}
+.Enginnering{
+    margin-top: 2rem;
+}
+.content_container{
+    background-color: rgb(243, 241, 241);
+    padding-bottom: 3rem;
+}
+
+.footer{
+    width: 100%;
+}
+
+.foot_bar {
+    padding-left: 3rem;
+    padding-top: 5vh;
+    background-color: black;
+    width: 100%;
+    height: 13vh;
+    word-spacing: 3vw;
+}
+
+.foot_bar a {
+    color: white;
+    opacity: 0.5;
+}
+
+.foot_bar a:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 860px) {
+
+    .searchbar input,
+    .searchbar button{
+        display: none;
+    }
+    .upload{
+        display: none;
+    }
+ }

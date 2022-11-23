@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.head_bar{
+    width: 100%;
+    background-color: black;
+}
+
+.div_logo {
+    padding: 10px 0px 5px 200px;
+    opacity: 0.3;
+}
+
+body{
+    background-image: url(Images/log_in_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    height: 100vh;
+   
+}
+
+
+.form{
+    background-color: #fff;
+    width: 20rem;
+    margin-top: 1.75rem;
+    height: 90%;
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    scroll-behavior:smooth;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 1rem;
+}
+.head_of_sign_up{
+    font-size: 1.5rem;
+    padding-bottom: 2rem;
+}
+
+.txt_box{
+    padding: 0.3rem;
+    
+}
+.txt_box input{
+    width: 15rem;
+    height: 3rem;
+    padding-left: 1rem;
+    border-radius: 5px;
+    border: 1px solid rgb(204, 203, 203);
+}
+.txt_box6 input{
+    width: 1rem;  
+}
+.txt_box6{
+    display: flex;
+    margin-left: 1rem;
+    font-size: 1rem;
+    font-weight: 590;
+    justify-content:flex-start;
+    align-items: center;
+}
+button{
+    width: 15rem;
+    height: 3rem;
+    background-color: rgb(63, 63, 248);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+button:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    color: black;
+
+}
+.lower_agreement{
+    font-size: 0.8rem;
+    opacity: 0.5;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
+hr{
+    opacity: 0.5;
+    height: 0.1rem;
+    margin-bottom: 0.3rem;
+}
+.member a{
+   color: blue;
+}
+
+@media only screen and (max-width:1000px){
+    .head_bar{
+        width: 100%;
+    }
+    .form{
+        width: 100%;
+    }
+    .txt_box input{
+        width: 100%;
+    }
+   
+}

@@ -1,0 +1,255 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.head_bar {
+    width: 100%;
+    overflow: hidden;
+    background-color: rgba(133, 133, 133, 0.493);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.div_logo {
+    padding: 10px 0px 5px 20px;
+    opacity: 0.3;
+}
+
+.searchbar {
+    width: 50%;
+    display: flex;
+}
+
+.searchbar button {
+    width: 2rem;
+    border: none;
+    background-color: white;
+}
+
+.searchbar button:hover {
+    cursor: pointer;
+}
+
+.searchbar input {
+    background-color: white;
+    border: none;
+    width: 100%;
+    height: 5vh;
+    outline: none;
+    border-radius: none;
+}
+
+
+
+.nav_bar {
+    padding-right: 25px;
+}
+
+#nav_bar_1 {
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    padding-right: 1.5rem;
+}
+
+#nav_bar_2 {
+    background-color: white;
+    padding: 10px;
+    color: black;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav_bar a:hover {
+    opacity: 0.7;
+}
+
+.main_body {
+    background-image: url();
+}
+
+.content {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    font-weight: lighter;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content h1 {
+    font-size: 3.8rem;
+    color: white;
+    margin-bottom: 10vh;
+}
+
+.content p {
+    font-size: 2rem;
+    color: white;
+    margin-bottom: 10vh;
+}
+
+.content a {
+    background-color: white;
+    padding: 2rem 4rem;
+    color: black;
+    font-size: 1.8rem;
+    border-radius: 10px;
+}
+
+.content a:hover {
+    opacity: 0.7;
+}
+
+body {
+    background-image: url(Images/img1.avif);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 15s infinite ease-in-out;
+}
+
+@keyframes change {
+    0% {
+        background-image: url(Images/img2.avif);
+    }
+
+    20% {
+        background-image: url(Images/img4.avif);
+    }
+
+    40% {
+        background-image: url(Images/img6.avif);
+    }
+
+    60% {
+        background-image: url(Images/img8.avif);
+    }
+
+    80% {
+        background-image: url(Images/img10.avif);
+    }
+
+    100% {
+        background-image: url(Images/img12.avif);
+    }
+}
+
+.foot_bar {
+    margin-top: 85vh;
+    padding-top: 5vh;
+    background-color: black;
+    width: 100%;
+    height: 13vh;
+    word-spacing: 3vw;
+}
+
+.foot_bar a {
+    color: white;
+    opacity: 0.5;
+}
+
+.foot_bar a:hover {
+    opacity: 1;
+}
+
+
+
+@media only screen and (max-width:800px) {
+    .searchbar {
+        display: none;
+    }
+
+    .head_bar {
+        width: 100%;
+        overflow: hidden;
+        background-color: rgba(133, 133, 133, 0.493);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    .content p {
+        display: none;
+    }
+
+    .foot_bar nav {
+        background-color: black;
+    
+    }
+
+    .foot_bar nav a {
+        display: flex;
+        padding-bottom: 3vh;
+        padding-top: 3vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 10vh;
+       border-bottom: solid 1px;
+       border-color: rgb(148, 146, 146);
+      
+       
+        
+
+    }
+
+}
+
+@media only screen and (min-height:900px) and(orientation: landscape)
+{
+ 
+    .searchbar {
+        display: none;
+    }
+
+    .head_bar {
+        width: 100%;
+        overflow: hidden;
+        background-color: rgba(133, 133, 133, 0.493);
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    .content p {
+        display: none;
+    }
+
+    .foot_bar nav {
+        background-color: black;
+    
+    }
+
+    .foot_bar nav a {
+        display: flex;
+        padding-bottom: 3vh;
+        padding-top: 3vh;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 10vh;
+       border-bottom: solid 1px;
+       border-color: rgb(148, 146, 146);
+      
+       
+        
+
+    }
+     
+}
